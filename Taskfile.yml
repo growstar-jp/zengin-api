@@ -4,7 +4,7 @@ version: '3'
 vars:
   APP: zengin-api
   GOLANG_BUILD_DIR: '{{.HOME}}/repos/internal/docker-compose-collection/tooling/golang-build'
-  GOLANG_IMAGE: growstar/golang-builder:1.27.1
+  GOLANG_IMAGE: growstar/golang-builder:1.27.3
   CADDY_SITE: '{{.HOME}}/repos/internal/docker-compose-collection/scripts/caddy-site.sh'
   GOOS: linux
   GOARCH: amd64
